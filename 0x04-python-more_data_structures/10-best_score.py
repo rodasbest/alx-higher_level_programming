@@ -6,7 +6,7 @@ def best_score(a_dictionary):
     for people in a_dictionary:
         if one_loop:
             best = people
-            score  a_dictionary[people]
+            score = a_dictionary[people]
             one_loop = False
         if a_dictionary[people] > score:
             score = a_dictionary[people]
