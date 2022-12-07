@@ -11,4 +11,4 @@ def best_score(a_dictionary):
         if a_dictionary[people] > score:
             score = a_dictionary[people]
             best = people
-        return best
+    return best
